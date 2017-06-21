@@ -1,0 +1,116 @@
+html{
+  background-color: #FFF7F3;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-family: Tahoma;
+}
+
+body{
+  background-color: #FFF7F3;
+}
+
+h1{
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  border: 1px;
+}
+
+.img{
+  position: absolute;
+  text-align: center;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  margin-left: 31.5%;
+}
+
+img{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.container{
+  background-color: #3D7299;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  margin-top: 20%;
+}
+
+.experience{
+  text-align: left;
+  color: black;
+  border-color: white;
+  border-width: 1px;
+}
+
+footer{
+  background-color: #01070B;
+  text-align: center;
+  width:100%;
+  height:300px;
+  border:1px solid #ccc;
+  border-width:1px 0;
+  bottom: 0;
+  font-family: tahoma;
+}
+
+.nav{
+  border:0px solid #ccc;
+  border-width:0px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  width: 100%;
+  font-size: 14pt;
+  text-align: center;
+  padding-top: 20%;
+  font-size: 20pt;
+  display: inline-block;
+}
+
+.nav li{
+  display: inline-block;
+}
+
+.nav a{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav a:visited{
+  text-decoration: none;
+  color: ;
+  display:inline-block;
+  padding:10px;
+}
+
+.nav a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.resume{
+  width: 50%;
+  height: 400px;
+  background-color: #B8BDCC;
+  color: white;
+  text-align: center;
+  display: inline-table;
+  float: left;
+}
+
+.resume a{
+  color: #170906;
+}
+
+.resume a:hover{
+  text-decoration: none;
+}
