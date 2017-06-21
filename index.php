@@ -1,13 +1,5 @@
-<!DOCTYPE html>
 <?php include "header.php" ?>
 
-  <h1>Joshua Wolfson</h1>
-  <div class="img">
-    <img src=Headshot.jpg></img>
-  </div>
-
-  <div class="container">
-    <?php include "navbar.php" ?>
     <div class="resume">
       <a href="experience.php">
         <h3>Work Experience</h3>

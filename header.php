@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <header>
   <head>
     <meta charset="utf-8">
@@ -7,3 +8,8 @@
   </head>
 </header>
 <body>
+  <h1>Joshua Wolfson</h1>
+   <img class="headshot" src="Headshot.jpg" align="middle"></img>
+
+  <div class="container">
+    <?php include "navbar.php" ?>
