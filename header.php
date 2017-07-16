@@ -8,8 +8,11 @@
   </head>
 </header>
 <body>
+  <!--<img class="banner" src="skyline.jpg" alt="">-->
   <h1>Joshua Wolfson</h1>
    <img class="headshot" src="Headshot.jpg" align="middle"></img>
-
+   <div class="color1"></div>
+   <br>
   <div class="container">
     <?php include "navbar.php" ?>
+    <hr>

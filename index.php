@@ -1,25 +1,11 @@
 <?php include "header.php" ?>
-
-    <div class="resume">
-      <a href="experience.php">
-        <h3>Work Experience</h3>
-      </a>
-    </div>
-    <div class="resume">
-      <a href="education.php">
-        <h3>Education</h3>
-      </a>
-    </div>
-    <div class="resume">
-      <a href="about.php">
-        <h3>About</h3>
-      </a>
-    </div>
-    <div class="resume">
-      <a href="review.php">
-        <h3>Testimonials</h3>
-      </a>
-    </div>
-  </div>
-
+<div class="intro">
+  <p>
+    Hello and welcome, <br><br>
+    &emsp;As you may have figured out, my name is Joshua Wolfson. If you are here, it could be that you are looking at me for an open position, you may
+    be looking at my freelancing services or perhaps you just want to know more about me.
+  </p>
+</div>
+<div style="height:500px; width:100%;"></div>
+<div style="height:500px; width:100%;"></div>
 <?php include "footer.php" ?>
