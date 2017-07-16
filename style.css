@@ -1,154 +1,196 @@
-:root{
-  --main-bg-color: #091359;
-}
-html{
-  background-color: var(--main-bg-color);
-  background-image: url("texture.jpg");
+html, body{
+  background-color: #21887A;
   margin: 0;
   padding: 0;
   position: absolute;
   width: 100%;
   height: 100%;
-  min-height: 100%;
-  font-family: Helvetica;
-}
-
-body{
-  background-color: var(--main-bg-color);
-  background-image: url("texture.jpg");
+  font-family: Tahoma;
 }
 
 h1{
   text-align: center;
-  color: white;
+  color: rgb(255,255,255);
   font-size: 40px;
-  border: 1px;
 }
 
-.headshot{
-  position: absolute;
-  display: inline-block;
-  top: 400px;
-  left: 50%;
-  width: 500px;
-  height: 500px;
-  margin-top: -325px;
-  margin-left: -250px;
-  border-radius: 50%;
-}
-
-.container{
-  background-color: #D6CFCA;
-  width: 60%;
-  height: 100%;
-  min-height: 100%;
-  margin-right: 20%;
-  margin-left: 20%;
-  padding-bottom: 20px;
-}
-
-.experience{
-  text-align: left;
-  color: black;
-  border-color: white;
-  border-width: 1px;
-}
-
-footer{
-  text-align: center;
-  margin-top: 5%;
-  width:100%;
-  height:200px;
+.nav2{
+  background-color: #61B4A9;
+  border:1px solid #ccc;
   border-width:1px 0;
-  bottom: 0;
-  left: 0;
-  color: white;
-  background-color: #434245;
-  overflow: hidden;
-}
-
-.nav{
-  border:0px solid #ccc;
-  border-width:0px 0;
   list-style:none;
-  margin:0px;
-  width: 100%;
-  font-size: 14pt;
-  text-align: center;
-  font-size: 20pt;
-  display: inline-block;
+  margin:0;
+  padding:0;
+  text-align:center;
 }
-
-.nav li{
-  display: inline-block;
+.nav2 li{
+  display:inline;
 }
-
-.nav a{
+.nav2 a{
   text-decoration: none;
-  color: black;
-  display: inline-block;
-  padding: 100px;
-}
-
-.nav a:visited{
-  text-decoration: none;
-  color: ;
+  color: rgb(255,255,255);
   display:inline-block;
   padding:10px;
 }
 
-.nav a:hover{
-  text-decoration: underline;
-  color: black;
+.nav2 a:visited{
+  text-decoration: none;
+  color: rgb(255,255,255);
+  display:inline-block;
+  padding:10px;
 }
 
-.resume a{
-  color: #170906;
+.nav2 a:hover{
+  text-decoration: none;
+  background-color: #ffea05;
 }
 
-.resume a:hover{
+.jumbotron {
+background-image : url('smash3.jpg');
+height: 400px;
+width: auto;
+}
+
+.squish{
+  padding: 10px;
+  padding-bottom: 20px;
+  min-height: 100%;
+  border-radius: 25px;
+  max-width: 900px;
+  background-color: #61B4A9;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.squish2{
+  padding: 10px;
+  padding-bottom: 20px;
+  min-height: 100%;
+  border-radius: 25px;
+  background-color: #61B4A9;
+  margin: auto;
+}
+
+.squish a {
+  margin-left: 340px;
   text-decoration: none;
 }
 
-.banner{
-  position: absolute;
-  background: url(skyline.jpg) no-repeat 0% 0%;
-  width: 2000px;
-  height: 698px;
-  margin-top: -20px;
-  margin-left: -20px;
-  margin-right: -50px;
+.squish a:visited{
+  color: blue;
 }
 
-.color1{
-  width: 100%;
-  height: 500px;
+.squish a:hover{
+  text-decoration: underline;
 }
 
-hr{
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid black;
-  margin: 1em 0;
-  padding: 0;
+.squish ul{
+  font-size: 30px;
 }
 
-.intro p{
-  font-size: 14pt;
+.squish li{
+  font-size: 20px;
 }
 
-.resume-container{
-
+.squish div{
+  font-size: 14px;
 }
 
-.resume-container h1{
+.squish p{
   text-align: left;
-  margin-bottom: 5px;
-  color: BLACK;
 }
 
-H2{
+.squish img{
+  float: left;
+  border-radius: 5px;
+}
+
+.registration{
+  padding: 15px;
+  border-radius: 25px;
+  width: 350px;
+  background-color: #61B4A9;
+  margin: auto;
+  min-height: 100%
+}
+
+.contact{
+  padding: 15px;
+  border-radius: 25px;
+  width: 600px;
+  background-color: #61B4A9;
+  margin: auto;
+  min-height: 100%
+}
+
+.form-group{
+  margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+  padding: 5px 10px;
+  width: 330px;
+}
+
+.input-box{
+  width: 300px;
+}
+
+.input-box2{
+  width: 160px;
+  float: left;
+  margin-right: 200px;
+  margin-bottom: 15px;
+}
+
+.checkers{
+  margin-right: 0px;
+}
+
+.tier1,{
+  margin-left: 10px;
+}
+
+.tier2{
+  margin-left: 30px;
+}
+
+.lvl1{
+  margin-left: 25px;
+}
+
+.lvl2{
+  margin-left: 75px;
+}
+
+.lvl3{
+  margin-left: 125px;
+}
+
+.lvl4{
+margin-left: 175px;
+}
+
+.class1{
+  width: 100%;
+  text-align: left;
+}
+
+.class1 table, th, td {
+    border: 1px solid black;
+}
+
+.class1 th, td{
+  padding-right: 40px;
+}
+
+.footer{
+  background-color: #61B4A9;
   text-align: center;
-  font-size: 40pt;
+  margin-top: 30px;
+  width:100%;
+  height:100px;
+  border:1px solid #ccc;
+  border-width:1px 0;
+  bottom: 0;
+  font-family: tahoma;
 }
