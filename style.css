@@ -1,9 +1,8 @@
 :root{
-  --main-bg-color: #091359;
+  --main-bg-color: #28647F;
 }
 html{
   background-color: var(--main-bg-color);
-  background-image: url("texture.jpg");
   margin: 0;
   padding: 0;
   position: absolute;
@@ -15,7 +14,6 @@ html{
 
 body{
   background-color: var(--main-bg-color);
-  background-image: url("texture.jpg");
 }
 
 h1{
@@ -38,13 +36,22 @@ h1{
 }
 
 .container{
-  background-color: #D6CFCA;
-  width: 60%;
+  background-color: #E1F6FF;
+  width: 70%;
   height: 100%;
   min-height: 100%;
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 15%;
+  margin-left: 15%;
   padding-bottom: 20px;
+
+}
+.container2{
+  background-color: #E1F6FF;
+  width: 70%;
+  height: 100%;
+  min-height: 100%;
+  margin-right: 15%;
+  margin-left: 15%;
 }
 
 .experience{
@@ -63,7 +70,7 @@ footer{
   bottom: 0;
   left: 0;
   color: white;
-  background-color: #434245;
+  background-color: #717B7F;
   overflow: hidden;
 }
 
@@ -142,13 +149,20 @@ hr{
 
 }
 
+.resume-container li{
+  margin-left: 30px;
+}
+
 .resume-container h1{
   text-align: left;
   margin-bottom: 5px;
   color: BLACK;
+  font-size: 15pt;
 }
 
 H2{
   text-align: center;
   font-size: 40pt;
 }
+
+ul

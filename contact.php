@@ -13,7 +13,7 @@
       <input class="input-box"  type="text" name="email" placeholder="E-Mail">
     </div>
     <div class="form-group">
-      <textarea name="contact" type="text" rows="30" cols="70" placeholder="Leave your message here"></textarea>
+      <textarea name="contact" type="text" rows="10" cols="70" placeholder="Leave your message here"></textarea>
     </div>
     <br><input type="submit" value="Submit" name="submit">
   </form>

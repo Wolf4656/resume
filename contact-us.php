@@ -8,8 +8,11 @@ $phoneNumber= $_POST ["phoneNumber"];
 $contact= $_POST ["contact"];
 
 if(Select::contact($name, $email, $phoneNumber, $contact)){
-echo "SUCCESS";
-header('Location: http://www.subzeroheros.net/message.php');
+  header('Location: http://www.wolfsonjosh.com/message.php');
+  echo "SUCCESS";
+  echo '<script language="javascript">';
+  echo 'alert("I have recieved your message and will get back to you as soon as I can")';
+  echo '</script>';
 } else {
   echo "ERROR";
 }

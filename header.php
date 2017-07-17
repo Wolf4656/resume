@@ -13,6 +13,7 @@
    <img class="headshot" src="Headshot.jpg" align="middle"></img>
    <div class="color1"></div>
    <br>
-  <div class="container">
+  <div class="container2">
     <?php include "navbar.php" ?>
     <hr>
+    <div class="container">
