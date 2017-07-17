@@ -1,5 +1,7 @@
- <footer class="footer">
-   Created by Joshua Wolfson &copy;2015
- </footer>
+</div>
 </body>
-</html>
+<footer class="footer">
+<script src="script.js"></script>
+<p>Footer &copy Joshua Wolfson 2017</p>
+
+</footer>
