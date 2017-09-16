@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <header>
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-mobile.css">
+    <title>Joshua Wolfson - Resume</title>
   </head>
 </header>
 <body>
-  <!--<img class="banner" src="skyline.jpg" alt="">-->
-  <h1>Joshua Wolfson</h1>
-   <img class="headshot" src="Headshot.jpg" align="middle"></img>
-   <div class="color1"></div>
-   <br>
-  <div class="container2">
-    <?php include "navbar.php" ?>
-    <hr>
-    <div class="container">
+  <?php include "navbar.php" ?>
+  <div class="headshot-container">
+    <div class="hidden-xs" id="headshot-container-desktop">
+      <img class="hidden-xs" src="Headshot.jpg" align="middle" id="headshot"></img>
+    </div>
+    <img class="visible-xs" src="Headshot.jpg" align="middle" id="headshot2"></img>
+  </div>
+   <br class="hidden-xs">
+  <div class="container-fluid">

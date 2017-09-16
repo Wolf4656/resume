@@ -1,0 +1,119 @@
+#nav3{
+  border:0px solid #ccc;
+  border-width:0px 0;
+  list-style:none;
+  width: 100%;
+  font-size: 15pt;
+  text-align: center;
+  display: inline-grid;
+  background-color: #E1F6FF;
+  height: 40px;
+  font-family: "Impact", Tahoma, sans-serif;
+}
+
+#nav3 li{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#nav3 a{
+  text-decoration: none;
+  color: Black;
+  display: inline-block;
+  margin-top:4%;
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 100%;
+}
+
+#headshot2{
+  margin-top: 4%;
+  margin-bottom: 4%;
+  width: 100%;
+  height: 100%;
+}
+
+.mobile-resume-container{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.mobile-resume-container h1{
+  color: Black;
+}
+.mobile-resume-container hr{
+  width: 100%;
+  float: center;
+  border-top: solid 5px;
+  text-align: center;
+}
+
+.mobile-resume-container p{
+  display: inline;
+  font-size: 12px;
+}
+
+.mobile-resume-container-object{
+  display: block;
+  width: 100%;
+  padding: 2px;
+  margin-left: 2%;
+}
+
+.mobile-resume-container-object li{
+  margin-left: 8%;
+  height: auto;
+  font-size: 9pt;
+}
+
+.mobile-resume-container-object h1{
+  text-align: left;
+  color: black;
+  font-size: 10pt;
+  height: auto;
+}
+
+.mobile-resume-container-freelancing{
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 100%;
+  font-size: 15pt;
+}
+
+.mobile-resume-container-freelancing h1{
+  color: black;
+  text-align: left;
+}
+
+.mobile-resume-container-freelancing p{
+  margin-left: 5%;
+  font-size: 12pt;
+}
+
+.mobile-resume-container-freelancing li{
+  margin-left: 5%;
+  font-size: 12pt;
+}
+
+.mobile-resume-item{
+  font-size: 20px;
+}
+
+.mobile-resume-header{
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.mobile-resume-header p {
+  display: inline-table;
+  align: middle;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  font-size: 10pt;
+
+}
+
+.mobile-resume-header h1{
+  font-family: "Impact", Tahoma, sans-serif;
+}
